@@ -18,10 +18,14 @@ body a {
 /* bannerworkstartshere */
 /* section1startshere */
 .player-picture img {
-  width: 550px;
+  width: 500px;
 }
 .description {
   font-size: 40px;
+  margin-left: 155px;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  margin-right: 102px;
 }
 .description a {
   font-size: 20px;
@@ -69,7 +73,7 @@ main {
 .photo-album {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 .photo-container .title {
   font-size: 40px;
@@ -164,7 +168,9 @@ h1 {
   position: relative;
 }
 .logo img {
-  width: 100%;
+  width: 483px;
+  position: relative;
+  left: 80px;
 }
 .definition {
   display: none;
@@ -247,7 +253,13 @@ footer:hover {
   .copa-container {
     width: 100%;
   }
-
+  .description {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
   .copa-america {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -278,6 +290,11 @@ footer:hover {
   }
   .copa-argentina-container {
     display: none;
+  }
+  .logo img {
+    width: 125px;
+    position: relative;
+    left: -100px;
   }
   .logo-description {
     width: 50%;
